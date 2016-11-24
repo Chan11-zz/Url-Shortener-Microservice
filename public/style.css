@@ -10,7 +10,7 @@
 body{
     background: #424242;
 }
-div{
+div,.footer{
      font-family: Verdana;
      font-size: 12px;
      line-height: 25px;
@@ -40,7 +40,16 @@ div{
 #submit:hover{
     cursor:pointer;
 }
-
+.footer{
+  position:relative;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+}
+strong{
+    color:#428bca;
+}
 /*response page*/
 #url-page{
     margin-top:5%;
