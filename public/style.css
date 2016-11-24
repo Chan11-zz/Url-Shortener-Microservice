@@ -1,0 +1,50 @@
+.container {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+#title{
+    color:white/*#2c3e50*/;
+    text-transform: uppercase;
+}
+body{
+    background: #424242;
+}
+div{
+     font-family: Verdana;
+     font-size: 12px;
+     line-height: 25px;
+     letter-spacing: 1px;
+     font-weight: bold;
+     color:white;
+}
+#output-ex{
+    color:white;/*#2c3e50*/
+}
+#examples,#title,#form{
+    text-align:center;
+}
+#submit,button{
+    background-color:rgba(50, 169, 234, 0.84);
+}
+#url,#submit,button{
+    border:0;
+    padding:10px;
+}
+#url{
+    border-color:green;
+    border:1px;
+    border-style:solid;
+    width:50%;
+}
+#submit:hover{
+    cursor:pointer;
+}
+
+/*response page*/
+#url-page{
+    margin-top:5%;
+}
+a{
+    color:white;
+}

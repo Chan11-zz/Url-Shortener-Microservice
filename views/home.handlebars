@@ -1,0 +1,31 @@
+
+    <h1 id="mainHeader"> </h1>
+      <br />
+      <h1 id="title">URL Shortener Microservice</h1>
+      <span id="form">
+      <form action="https://api-projects-kjtvxbawxuljqtke.c9users.io/shorturl" method="POST">
+        <input type="input" id="url" name="url">
+        <input type="submit" id="submit">
+      </form>
+      </span>
+      <br />
+      <div id="user-stories">
+        <h1 style="color:#F89406">User stories:</h1> 
+          <ol>
+            <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+            <br />
+            <li> If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+            <br />
+            <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+            <br />
+            </ol>
+             </div>   
+             <div id="examples">
+                <h1 style="color:#F89406">Example usage:</h1>
+                <p>https://www.google.com</p>
+                  
+                <div id="output-ex"> 
+                <h1 style="color:#F89406">Example output:</h1>
+                <p>{ "original_url":"https://www.google.com", "short_url":"https://u-rl-chan.herokuapp.com/f210o" }</p>
+                </div> 
+      </div>
